@@ -1,0 +1,3 @@
+[submodule "rand_read_perf"]
+	path = rand_read_perf
+	url = git@github.com:t3suzuki/rand_read_perf.git

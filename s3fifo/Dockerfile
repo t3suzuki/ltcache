@@ -7,7 +7,7 @@ ARG USERNAME=tomoya-s
 RUN apt-get -y update
 RUN apt install -y git sudo cmake
 RUN apt install -y curl emacs nano wget g++ pkg-config
-RUN apt install -y libglib2.0-dev
+RUN apt install -y libglib2.0-dev kmod nvme-cli
 RUN apt install -y python3-numpy bc numactl
 
 RUN useradd -m $USERNAME
