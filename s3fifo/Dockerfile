@@ -9,6 +9,7 @@ RUN apt install -y git sudo cmake
 RUN apt install -y curl emacs nano wget g++ pkg-config
 RUN apt install -y libglib2.0-dev kmod nvme-cli
 RUN apt install -y python3-numpy bc numactl
+RUN apt install -y libcuckoo-dev
 
 RUN useradd -m $USERNAME
 RUN gpasswd -a $USERNAME sudo
